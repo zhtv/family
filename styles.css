@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+
+body {
+    margin: 0vw 10.5vw 0vw 10.5vw;
+    background-color: #EAD9C8;
+}
+
+.advert {
+    font-family: 'Mulish', sans-serif;
+    padding: 0vw 3vw;
+    background-color: #007A79;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 0.8vw;
+    justify-content: space-between;
+}
+
+.bings, .bing {
+    display: flex;
+    align-items: center;
+}
+
+.bings {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.bing img, .socials img {
+    height: 1.5vw;
+    margin-right: 1vw;
+}
+
+.shapka {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 2vw;
+    background-color: white;
+    padding: 0.5vw 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 5vw;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav a {
+    color: #007A79;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0vw 0vw 0vw 6vw;
+}
+
+.slider {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    margin: 0vw 0vw 4vw 0vw;
+}
+
+.slides {
+    display: flex;
+    transition: transform 1s ease;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    transition: transform 0.5s ease;
+}
+
+.slide img {
+    width: 100%;
+}
+
+.navigation {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.dot {
+    height: 1.5vw;
+    width: 1.5vw;
+    margin: 0 0.5vw;
+    background-color: #EAD9C8;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.6s ease;
+}
+
+.dot.active {
+    background-color: #007A79;
+}
+
+h1 {
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 3vw;
+    color: #007A79;
+}
+
+.initiatives {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.initiative {
+    margin: 0vw 0vw 2vw 0vw;
+    background-color: #007A79;
+    color: white;
+    padding: 1vw 2vw 2vw 2vw;
+    width: 26.5%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.initiative h1 {
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 2vw;
+    color: white;
+    margin-bottom: 0;
+}
+
+.initiative a {
+    font-family: 'Mulish', sans-serif;
+    font-size: 1vw;
+    text-align: justify;
+    margin: 2vw 0vw;
+}
+
+.knopka a {
+    font-family: 'Yanone Kaffeesatz';
+    font-weight: bold;
+    background-color: #FEA12F;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2vw;
+    padding: 1vw;
+    border-radius: 5px;
+}
+
+.knopka a:hover {
+    background-color: #EAD9C8;
+    color: #FEA12F;
+    transition: 0.5s;
+}
+
+.event {
+    display: flex;
+    background-color: #007A79;
+    border: 1vw solid #FEA12F;
+    margin: 2vw 0vw;
+}
+
+.kartinka {
+    width: 54%;
+    border-right: 1vw solid #FEA12F;
+}
+
+.kartinka img {
+    width: 100%;
+    display: block;
+}
+
+.info {
+    font-family: 'Mulish', sans-serif;
+    width: 50%;
+    padding: 1.5vw;
+    color: white;
+    font-size: 1vw;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info h1 {
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 3vw;
+    color: white;
+}
+
+footer {
+    font-family: 'Mulish', sans-serif;
+    background-color: #007A79;
+    font-size: 1.1vw;
+    margin-top: 5vw;
+    padding: 1vw 3vw;
+    color: white;
+}
+
+.nizlogo img {
+    background-color: #EAD9C8;
+    border-radius: 50px;
+    height: 6.5vw;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3vw;
+}
+
+.bing2 {
+    display: flex;
+    align-items: center;
+    margin: 0.2vw 0vw;
+}
+
+.bing2 img {
+    height: 1.5vw;
+    margin-right: 1vw;
+}
+
+.odin a {
+    text-decoration: none;
+    color: white;
+}
+
+.odin a:hover {
+    color: #FEA12F;
+    transition: 0.5s;
+}
+
+.icons img {
+    height: 3vw;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.niz a {
+    border-radius: 100px;
+    background-color: #FEA12F;
+    padding: 0.5vw 5vw;
+    font-family: 'Yanone Kaffeesatz';
+    text-decoration: none;
+    color: #EAD9C8;
+    font-size: 1.5vw;
+    white-space: nowrap;
+    margin: 1vw 0vw;
+}
+
+.niz a:hover {
+    background-color: #EAD9C8;
+    text-decoration: none;
+    color: #FEA12F;
+    transition: 0.5s;
+}
+
+.modal {
+    display: none; 
+    border: none;
+    position: fixed;
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 122, 121, 0.5);
+    font-size: 1vw;
+}
+
+.modal-content {
+    background-color: #EAD9C8;
+    margin: 20% 10.5vw;
+    padding: 1vw 3vw;
+    color: #007A79;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+}
+
+.stroka {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close {
+    color: #FEA12F;
+    font-size: 2vw;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.close:hover,
+.close:focus {
+    color: #007A79;
+    text-decoration: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vw;
+}
+
+.modal input, .modal select {
+    font-family: 'Mulish', sans-serif;
+    border-radius: 5px;
+    border: none;
+    margin-right: 1vw;
+    font-size: 1vw;
+}
+
+.form-buttons button {
+    font-family: 'Mulish', sans-serif;
+    background-color: #FEA12F;
+    color: #EAD9C8;
+    font-weight: bold;
+    border-radius: 1vw;
+    border: none;
+    padding: 0.5vw;
+    font-size: 1vw;
+}
+
+.form-buttons button:hover {
+    font-family: 'Mulish', sans-serif;
+    background-color: #EAD9C8;
+    color: #FEA12F;
+    border-radius: 0.1vw;
+    transition: 0.5s;
+}
